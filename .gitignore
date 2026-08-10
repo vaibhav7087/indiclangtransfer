@@ -3,7 +3,4 @@ venv/
 __pycache__/
 *.pdf
 *.docx
-graphs/
-results/
-reports/
 .env

@@ -1,0 +1,27 @@
+{
+    "source": "real",
+    "task": "pos",
+    "source_lang": "bn",
+    "target_lang": "bho",
+    "model": "xlm-roberta-base",
+    "strategy": "zero-shot",
+    "few_shot_size": 0,
+    "adaptation": "full",
+    "precision": 0.01821914293045933,
+    "recall": 0.02748741773132017,
+    "f1": 0.02191358024691358,
+    "accuracy": 0.0687984496124031,
+    "eval_loss": 2.7728443145751953,
+    "training_time_seconds": 8.829501152038574,
+    "hardware": {
+        "gpu_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+        "vram_total_mb": 6143.5,
+        "pytorch_version": "2.6.0+cu124",
+        "cuda_version": "12.4"
+    },
+    "gpu_memory_peak_mb": 1252.099609375,
+    "gpu_temp_before_c": 62,
+    "gpu_temp_after_c": 66,
+    "trainable_params": 277466129,
+    "total_params": 277466129
+}

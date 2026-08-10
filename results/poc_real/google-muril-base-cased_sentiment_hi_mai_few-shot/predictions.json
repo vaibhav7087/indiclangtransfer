@@ -1,0 +1,1002 @@
+[
+    {
+        "text": "ई परीक्षा किछु खास नहि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई नेता कोनो विशेषता नहि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई नोकरी बेकार अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "ई पावनि कमजोर अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "नेता किछु खास नहि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "पोथी कमाल के अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "बेकार अछि - परीक्षा",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "अस्पताल खुशी भेल",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "ई बिआह बहुत नीक अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "लाजवाब अछि - खाना",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "ई अस्पताल प्रेरणादायक अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "होटल बीच के अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "पावनि डरावना अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "पोथी बढ़िया अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "नेता चिंताजनक अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "कमजोर अछि - नेता",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "ई खेल खास नहि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "कोनो विशेषता नहि - होटल",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "लाजवाब अछि - बजार",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "ई नोकरी बहुत नीक अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "मौसम बेहतरीन अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "बहुत नीक अछि - खेल",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "ई नेता न नीक न खराब",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "परीक्षा गजब के अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "ई परीक्षा उत्कृष्ट अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "बिआह खास नहि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "योजना बेकार अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "चलि जायत - अस्पताल",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "नेता चलि जायत",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "खेल न नीक न खराब",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई फिल्म कमाल के अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "योजना ठीक अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "सामान्य अनुभव रहल - सड़क",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "पावनि पसंद आयल",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "सामान्य अनुभव रहल - नोकरी",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई योजना बीच के अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "बीच के अछि - नेता",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई मौसम बीच के अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "खाना किछु खास नहि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "अस्पताल निराशाजनक अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "ई परीक्षा बहुत नीक अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "योजना दिल छू लेलक",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "किछु खास नहि - समाचार",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "गीत उत्कृष्ट अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "विद्यालय प्रेरणादायक अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "ई फिल्म सुंदर अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "लाजवाब अछि - योजना",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "बढ़िया अछि - योजना",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "ई खेल निराशा भेल",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "पसंद नहि आयल - होटल",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "ई मौसम औसत अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "चिंताजनक अछि - समाचार",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "पोथी किछु खास नहि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "अद्भुत अछि - समाचार",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "नेता कमजोर अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "पोथी अविस्मरणीय अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "योजना निराशाजनक अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "नकारात्मक अछि - विद्यालय",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "ई होटल खास नहि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "सड़क बहुत खराब अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "यात्रा खुशी भेल",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "शानदार अछि - परीक्षा",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "ई नेता औसत अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "कमजोर अछि - पोथी",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "पावनि नकारात्मक अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "ई बजार उत्कृष्ट अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "सड़क मजा आयल",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "किछु खास नहि - पोथी",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई पोथी औसत अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "बीच के अछि - विद्यालय",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "मौसम बढ़िया अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "विद्यालय डरावना अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "खराब अछि - फिल्म",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "पोथी अप्रिय अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "उत्कृष्ट अछि - खेल",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "अविस्मरणीय अछि - गीत",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "नेता खराब अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "गीत परेशान करै वाला अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "योजना कष्टदायक अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "समाचार बीच के अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "बीच के अछि - पावनि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "उबाऊ अछि - नोकरी",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "योजना मजा आयल",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "ठीक अछि - बजार",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई बिआह निराशाजनक अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "परीक्षा ठीक अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "यात्रा ठीक अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "पावनि परेशान करै वाला अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "दोकान न नीक न खराब",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई फिल्म मजा आयल",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "विद्यालय बेहतरीन अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "शानदार अछि - अस्पताल",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "पावनि सामान्य अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "दुखद अछि - यात्रा",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "ई परीक्षा सामान्य अनुभव रहल",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "दोकान किछु खास नहि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई विद्यालय निराशाजनक अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "सड़क कष्टदायक अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "बजार रोमांचक अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "परीक्षा बोरिंग अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "खाना औसत अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "मौसम अप्रिय अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "खराब अछि - पावनि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "ई पोथी बीच के अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई दोकान सामान्य अनुभव रहल",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "मौसम ठीक अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "न नीक न खराब - विद्यालय",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "दोकान प्रभावशाली अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "ई अस्पताल कष्टदायक अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "होटल न नीक न खराब",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "खाना खराब अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "ई विद्यालय सामान्य अनुभव रहल",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई समाचार न नीक न खराब",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "सामान्य अछि - यात्रा",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "बहुत नीक अछि - गीत",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "खास नहि - खेल",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "बिआह बहुत खराब अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "गीत सामान्य अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई विद्यालय ठीक अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "नेता उत्कृष्ट अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "ई विद्यालय सामान्य अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "योजना नकारात्मक अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "नोकरी भयानक अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "सड़क सामान्य अनुभव रहल",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई पोथी परेशान करै वाला अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "ई बिआह उत्कृष्ट अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "नोकरी निराशा भेल",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "औसत अछि - होटल",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "नेता बेकार अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "विद्यालय बीच के अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "दोकान बोरिंग अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "खाना अद्भुत अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "चलि जायत - होटल",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई फिल्म बीच के अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "बहुत नीक अछि - यात्रा",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "यात्रा अप्रिय अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "खेल प्रेरणादायक अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "सड़क खराब अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "मजा आयल - यात्रा",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "मौसम निराशाजनक अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "ई समाचार किछु खास नहि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "सड़क कोनो विशेषता नहि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई विद्यालय प्रभावशाली अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "योजना न नीक न खराब",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "अस्पताल उबाऊ अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "मौसम चलि जायत",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "बिआह न नीक न खराब",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "खेल खास नहि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "बहुत खराब अछि - बिआह",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "ई सड़क निराशाजनक अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "खेल मजा आयल",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "ई पावनि शानदार अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "समाचार भयानक अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "परीक्षा डरावना अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "परेशान करै वाला अछि - बजार",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "होटल हृदयस्पर्शी अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "नेता कष्टदायक अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "बजार उत्कृष्ट अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "अस्पताल खास नहि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "नकारात्मक अछि - गीत",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "गीत चलि जायत",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई समाचार बोरिंग अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "होटल अप्रिय अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "समाचार लाजवाब अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "अस्पताल सामान्य अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "मौसम असंतोषजनक अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "किछु खास नहि - नेता",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "खेल असंतोषजनक अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "गीत बहुत खराब अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "मौसम सामान्य अनुभव रहल",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "बेहतरीन अछि - नेता",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "खाना घटिया अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "खास नहि - खाना",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "प्रेरणादायक अछि - विद्यालय",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "विद्यालय उत्कृष्ट अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "फिल्म उबाऊ अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "दुखद अछि - योजना",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "ई सड़क चलि जायत",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई विद्यालय समय के बर्बादी",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "बीच के अछि - समाचार",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "समाचार अप्रिय अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "गीत असंतोषजनक अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "पोथी बोरिंग अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "ई नोकरी चलि जायत",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई परीक्षा बोरिंग अछि",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "ई बजार लाजवाब अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "अविस्मरणीय अछि - सड़क",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "फिल्म बेहतरीन अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "बीच के अछि - खाना",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "नोकरी मन भा गेल",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "नोकरी किछु खास नहि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "खास नहि - अस्पताल",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई विद्यालय प्रेरणादायक अछि",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "नोकरी खुशी भेल",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "ई दोकान पसंद नहि आयल",
+        "true_label": 0,
+        "pred_label": 1
+    },
+    {
+        "text": "ई विद्यालय मन भा गेल",
+        "true_label": 1,
+        "pred_label": 1
+    },
+    {
+        "text": "समाचार औसत अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "फिल्म सामान्य अछि",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "पावनि चलि जायत",
+        "true_label": 2,
+        "pred_label": 1
+    },
+    {
+        "text": "ई बजार चलि जायत",
+        "true_label": 2,
+        "pred_label": 1
+    }
+]
