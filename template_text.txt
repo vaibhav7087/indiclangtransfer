@@ -1,0 +1,20 @@
+IndicPrivacy-FL: Multimodal Federated Educational Architecture
+1. Centralized vs Federated Comparison
+This table compares the performance of the multimodal model when trained in a centralized setting versus the federated architecture using FedAvg and Differential Privacy.
+
+2. Performance Across Communication Rounds
+Accuracy, Precision, Recall, F1-score, and Loss progression across the federated communication rounds.
+
+3. Modality Ablation Study
+To prove that the model is truly multimodal, the table below shows performance drops when certain modalities are isolated.
+
+4. Missing-Modality Robustness
+
+5. Client-wise Performance
+
+6. Dataset Description
+
+7. Missing Modalities Logic
+The exact logic used to simulate missing modalities during dataset creation.
+
+8. Model and Federated Learning Parameters

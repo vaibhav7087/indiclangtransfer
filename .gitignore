@@ -1,0 +1,9 @@
+venv/
+*.whl
+__pycache__/
+*.pdf
+*.docx
+graphs/
+results/
+reports/
+.env

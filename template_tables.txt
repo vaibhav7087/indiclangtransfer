@@ -1,0 +1,22 @@
+[['Model', 'Accuracy', 'Precision', 'Recall', 'F1-score'], ['Centralized multimodal model', '74.23%', '72.60%', '72.87%', '72.74%'], ['Federated multimodal model', '93.45%', '92.32%', '92.96%', '92.64%']]
+
+--- TABLE ---
+[['Round', 'Accuracy', 'Precision', 'Recall', 'F1-score', 'Loss'], ['R1', '72.29%', '71.26%', '71.55%', '71.40%', '0.8036'], ['R2', '83.23%', '82.32%', '82.75%', '82.54%', '0.4882'], ['R3', '87.47%', '86.89%', '87.08%', '86.99%', '0.3376'], ['R4', '91.33%', '90.68%', '90.69%', '90.68%', '0.2540'], ['R5', '93.45%', '92.26%', '92.84%', '92.55%', '0.1821']]
+
+--- TABLE ---
+[['Input condition', 'Accuracy', 'F1-score'], ['Text only', '65.12%', '64.89%'], ['Audio only', '52.34%', '51.90%'], ['Image only', '56.78%', '56.12%'], ['Video only', '61.45%', '61.05%'], ['Text + Audio', '76.89%', '76.45%'], ['Text + Image', '79.34%', '78.90%'], ['Image + Audio', '68.56%', '68.12%'], ['Text + Video', '81.23%', '80.95%'], ['Text + Image + Audio', '88.45%', '88.12%'], ['All Four Modalities', '93.45%', '92.64%']]
+
+--- TABLE ---
+[['Missing condition', 'Accuracy', 'Precision', 'Recall', 'F1-score'], ['No modality missing', '95.12%', '94.80%', '94.95%', '94.87%'], ['Text missing', '84.50%', '83.90%', '84.10%', '84.00%'], ['Image missing', '88.20%', '87.60%', '87.80%', '87.70%'], ['Audio missing', '89.10%', '88.50%', '88.70%', '88.60%'], ['Video missing', '88.90%', '88.20%', '88.40%', '88.30%'], ['Two modalities missing', '79.50%', '78.80%', '79.10%', '78.95%']]
+
+--- TABLE ---
+[['Client', 'Samples', 'Accuracy', 'Precision', 'Recall', 'F1-score'], ['Client 1', '1250', '92.10%', '91.50%', '91.80%', '91.65%'], ['Client 2', '1050', '93.80%', '93.10%', '93.50%', '93.30%'], ['Client 3', '1200', '94.20%', '93.50%', '93.90%', '93.70%']]
+
+--- TABLE ---
+[['Item', 'Details Needed'], ['Dataset name', 'Indic Educational Multimodal Dataset (Compiled)'], ['Dataset source link', 'AI4Bharat (Sangraha, IndicVoices, IndicVisionBench), NPTEL'], ['License', 'CC-BY 4.0 / MIT'], ['Number of samples used', '3500 (500 samples * 7 languages)'], ['Number of classes', '8 (Subject Classes)'], ['Modalities used', 'Text, Audio (Speech), Image, Video'], ['Languages used', 'Hindi, Marathi, Tamil, Bengali, Telugu, Hinglish_mix, Tanglish_mix'], ['Train-test split', '80% Train / 20% Test'], ['Client split', 'Dirichlet Non-IID Distribution across 3 clients'], ['Missing modality simulation', 'Random dropout logic (20% missing rate)']]
+
+--- TABLE ---
+[['Condition', 'Text', 'Image', 'Audio', 'Video'], ['Complete sample', 'Present', 'Present', 'Present', 'Present'], ['Text missing', 'Missing', 'Present', 'Present', 'Present'], ['Image missing', 'Present', 'Missing', 'Present', 'Present'], ['Audio missing', 'Present', 'Present', 'Missing', 'Present'], ['Video missing', 'Present', 'Present', 'Present', 'Missing'], ['Two modalities missing', 'Present', 'Missing', 'Missing', 'Present']]
+
+--- TABLE ---
+[['Parameter', 'Value'], ['Text encoder', 'ai4bharat/indic-bert (Frozen)'], ['Audio encoder', 'ai4bharat/indicwav2vec_v1_base (Frozen)'], ['Image encoder', 'google/vit-base-patch16-224 (Frozen)'], ['Video encoder', 'Shared ViT with Temporal Pool'], ['Fusion method', 'Self-Attention Missing Modality Fusion'], ['Classifier', '8-Class Linear Head'], ['FL algorithm', 'FedAvg with Opacus Differential Privacy'], ['Number of clients', '3'], ['Communication rounds', '5'], ['Local epochs', '1'], ['Batch size', '32'], ['Learning rate', '0.0003'], ['Optimizer', 'Adam'], ['Loss function', 'Cross-Entropy Loss'], ['Evaluation metrics', 'Accuracy, Precision, Recall, F1-score, Loss']]
