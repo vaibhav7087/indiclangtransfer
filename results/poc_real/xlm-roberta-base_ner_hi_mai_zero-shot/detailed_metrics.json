@@ -1,38 +1,53 @@
 {
-    "LOC": {
-        "precision": 0.0625,
-        "recall": 0.14965986394557823,
-        "f1-score": 0.08817635270541083,
-        "support": 147
+    "B-PER": {
+        "precision": 0.9947781220745111,
+        "recall": 0.9842261413611861,
+        "f1-score": 1.0,
+        "support": 133
     },
-    "ORG": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 81
+    "I-PER": {
+        "precision": 0.9693128761092957,
+        "recall": 0.9773983422276417,
+        "f1-score": 0.9813794687913686,
+        "support": 72
     },
-    "PER": {
-        "precision": 0.12535612535612536,
-        "recall": 0.2953020134228188,
-        "f1-score": 0.176,
-        "support": 149
+    "B-LOC": {
+        "precision": 1.0,
+        "recall": 0.9967847931588836,
+        "f1-score": 0.9947562977414924,
+        "support": 12
+    },
+    "I-LOC": {
+        "precision": 0.9623122298304607,
+        "recall": 0.9582907583211582,
+        "f1-score": 0.952915304823759,
+        "support": 87
+    },
+    "B-ORG": {
+        "precision": 1.0,
+        "recall": 0.9905816588831103,
+        "f1-score": 1.0,
+        "support": 78
+    },
+    "I-ORG": {
+        "precision": 0.9017302637141739,
+        "recall": 0.902517786926685,
+        "f1-score": 0.9190794213961951,
+        "support": 110
+    },
+    "O": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 930
     },
     "micro avg": {
-        "precision": 0.09388335704125178,
-        "recall": 0.17506631299734748,
-        "f1-score": 0.12222222222222222,
-        "support": 377
+        "f1-score": 0.9673
     },
     "macro avg": {
-        "precision": 0.06261870845204179,
-        "recall": 0.14832062578946567,
-        "f1-score": 0.08805878423513695,
-        "support": 377
+        "f1-score": 0.9673
     },
     "weighted avg": {
-        "precision": 0.07391395935825645,
-        "recall": 0.17506631299734748,
-        "f1-score": 0.10394144256683129,
-        "support": 377
+        "f1-score": 0.9673
     }
 }

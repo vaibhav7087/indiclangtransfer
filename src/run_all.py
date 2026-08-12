@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 MODELS = ["xlm-roberta-base"] # Just XLM-R for PoC
 TASKS = ["ner", "pos", "sentiment"]
 SOURCE = "hi"
-TARGETS = ["bho", "mai"]
+TARGETS = ["bho", "mai", "raj", "dgo", "hne"]
 STRATEGIES = ["zero-shot", "few-shot", "lora"]
 FEW_SHOT_SIZE = 50
 

@@ -1,0 +1,105 @@
+{
+    "NOUN": {
+        "precision": 0.9846771616471265,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 40
+    },
+    "VERB": {
+        "precision": 0.9869179072812194,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 268
+    },
+    "ADJ": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 329
+    },
+    "ADP": {
+        "precision": 0.9404170829450523,
+        "recall": 0.9581717120457336,
+        "f1-score": 0.9459201617598674,
+        "support": 219
+    },
+    "ADV": {
+        "precision": 0.9712930537417512,
+        "recall": 0.9549726623461067,
+        "f1-score": 0.9522148355633352,
+        "support": 189
+    },
+    "AUX": {
+        "precision": 0.9187859060662548,
+        "recall": 0.9370354083532593,
+        "f1-score": 0.938178151489643,
+        "support": 167
+    },
+    "CONJ": {
+        "precision": 0.9412543056973003,
+        "recall": 0.9516596385314147,
+        "f1-score": 0.9316911842944297,
+        "support": 495
+    },
+    "DET": {
+        "precision": 0.9944762291573963,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 218
+    },
+    "NUM": {
+        "precision": 0.9481397624501775,
+        "recall": 0.9489807446239598,
+        "f1-score": 0.9536135333956084,
+        "support": 473
+    },
+    "PART": {
+        "precision": 0.9494401493198352,
+        "recall": 0.9402290186739299,
+        "f1-score": 0.950339480510233,
+        "support": 111
+    },
+    "PRON": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 306
+    },
+    "PROPN": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 0.9969517572498747,
+        "support": 157
+    },
+    "PUNCT": {
+        "precision": 0.9670344088595518,
+        "recall": 0.9642002687209187,
+        "f1-score": 0.9539792393608237,
+        "support": 200
+    },
+    "SCONJ": {
+        "precision": 0.9395229405694888,
+        "recall": 0.9313564457288948,
+        "f1-score": 0.9470973954829336,
+        "support": 484
+    },
+    "SYM": {
+        "precision": 0.9583534534457359,
+        "recall": 0.9712226313980826,
+        "f1-score": 0.9591907974842607,
+        "support": 271
+    },
+    "X": {
+        "precision": 0.9699636576092777,
+        "recall": 0.9453776500981358,
+        "f1-score": 0.9567070257447217,
+        "support": 382
+    },
+    "accuracy": 0.976724693334402,
+    "macro avg": {
+        "f1-score": 0.9779
+    },
+    "weighted avg": {
+        "f1-score": 0.9779
+    }
+}

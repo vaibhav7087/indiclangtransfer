@@ -1,0 +1,27 @@
+{
+    "source": "real",
+    "task": "sentiment",
+    "source_lang": "mr",
+    "target_lang": "mai",
+    "model": "ai4bharat-indic-bert",
+    "strategy": "lora",
+    "few_shot_size": 100,
+    "adaptation": "lora",
+    "precision": 0.9429103893501803,
+    "recall": 0.9355212285198571,
+    "f1": 0.9389,
+    "accuracy": 0.9528,
+    "eval_loss": 0.13526950646565308,
+    "training_time_seconds": 288.0539989947779,
+    "hardware": {
+        "gpu_name": "NVIDIA GeForce RTX 4090",
+        "vram_total_mb": 24564.0,
+        "pytorch_version": "2.6.0+cu124",
+        "cuda_version": "12.4"
+    },
+    "gpu_memory_peak_mb": 4046.2838654148904,
+    "gpu_temp_before_c": 57,
+    "gpu_temp_after_c": 71,
+    "trainable_params": 2538930,
+    "total_params": 236000000
+}

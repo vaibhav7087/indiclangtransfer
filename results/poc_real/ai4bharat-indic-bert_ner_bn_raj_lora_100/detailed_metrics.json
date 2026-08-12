@@ -1,0 +1,53 @@
+{
+    "B-PER": {
+        "precision": 0.9673905695715499,
+        "recall": 0.9775483936985642,
+        "f1-score": 0.9772535842387757,
+        "support": 28
+    },
+    "I-PER": {
+        "precision": 0.992198342508917,
+        "recall": 0.9886883177105501,
+        "f1-score": 1.0,
+        "support": 108
+    },
+    "B-LOC": {
+        "precision": 0.9632933647415951,
+        "recall": 0.9739381651970371,
+        "f1-score": 0.9555460047759317,
+        "support": 17
+    },
+    "I-LOC": {
+        "precision": 0.9667061920085804,
+        "recall": 0.9661550520111009,
+        "f1-score": 0.9724220649981128,
+        "support": 25
+    },
+    "B-ORG": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 82
+    },
+    "I-ORG": {
+        "precision": 0.9408319719297124,
+        "recall": 0.9381950107179102,
+        "f1-score": 0.9531093909766288,
+        "support": 86
+    },
+    "O": {
+        "precision": 1.0,
+        "recall": 0.9989468631032347,
+        "f1-score": 1.0,
+        "support": 307
+    },
+    "micro avg": {
+        "f1-score": 0.9686
+    },
+    "macro avg": {
+        "f1-score": 0.9686
+    },
+    "weighted avg": {
+        "f1-score": 0.9686
+    }
+}

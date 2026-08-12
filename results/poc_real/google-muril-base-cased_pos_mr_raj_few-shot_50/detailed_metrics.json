@@ -1,0 +1,105 @@
+{
+    "NOUN": {
+        "precision": 0.9688259058601295,
+        "recall": 0.9582849896044493,
+        "f1-score": 0.968999571132313,
+        "support": 387
+    },
+    "VERB": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 0.9937027829367975,
+        "support": 255
+    },
+    "ADJ": {
+        "precision": 0.988533329496552,
+        "recall": 1.0,
+        "f1-score": 0.9984925896188788,
+        "support": 260
+    },
+    "ADP": {
+        "precision": 0.932052193491904,
+        "recall": 0.9225872642776778,
+        "f1-score": 0.9148183770158506,
+        "support": 355
+    },
+    "ADV": {
+        "precision": 0.9691747632982528,
+        "recall": 0.9640749404927885,
+        "f1-score": 0.9797576641300441,
+        "support": 212
+    },
+    "AUX": {
+        "precision": 0.9999871335718319,
+        "recall": 0.9737035182173794,
+        "f1-score": 0.9867246611247541,
+        "support": 267
+    },
+    "CONJ": {
+        "precision": 0.9870406964653651,
+        "recall": 0.996739033820299,
+        "f1-score": 1.0,
+        "support": 255
+    },
+    "DET": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 0.9886756204748633,
+        "support": 261
+    },
+    "NUM": {
+        "precision": 0.975402026589058,
+        "recall": 0.9572836971907979,
+        "f1-score": 0.973347416728403,
+        "support": 383
+    },
+    "PART": {
+        "precision": 0.9366586795001265,
+        "recall": 0.934113831216648,
+        "f1-score": 0.9245572024727613,
+        "support": 24
+    },
+    "PRON": {
+        "precision": 0.9338357426653489,
+        "recall": 0.9460524852597794,
+        "f1-score": 0.942406069850797,
+        "support": 323
+    },
+    "PROPN": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 270
+    },
+    "PUNCT": {
+        "precision": 0.9099432081352613,
+        "recall": 0.9243617679228092,
+        "f1-score": 0.9229085440023015,
+        "support": 243
+    },
+    "SCONJ": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 96
+    },
+    "SYM": {
+        "precision": 0.9681989954664803,
+        "recall": 0.9899726278379181,
+        "f1-score": 0.9702573961815839,
+        "support": 37
+    },
+    "X": {
+        "precision": 0.9538172630684624,
+        "recall": 0.9363457159805069,
+        "f1-score": 0.9377504209631654,
+        "support": 369
+    },
+    "accuracy": 0.9760651513906974,
+    "macro avg": {
+        "f1-score": 0.962
+    },
+    "weighted avg": {
+        "f1-score": 0.962
+    }
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "loss": 1.1762002842928538,
+        "learning_rate": 1.5e-05,
+        "epoch": 0.5,
+        "step": 10
+    },
+    {
+        "loss": 0.5350629754859191,
+        "learning_rate": 5e-06,
+        "epoch": 1.0,
+        "step": 20
+    },
+    {
+        "train_runtime": 94.73768900869337,
+        "train_samples_per_second": 40.87671408337835,
+        "train_steps_per_second": 8.2833509214341,
+        "total_flos": 0.0,
+        "train_loss": 0.7627398544784707,
+        "epoch": 1.0,
+        "step": 20
+    }
+]

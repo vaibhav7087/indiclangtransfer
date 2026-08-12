@@ -31,8 +31,8 @@ def generate_graphs():
     logging.info("Generating Dataset Statistics (Section 1)...")
     # 1.1 Dataset Size
     plt.figure(figsize=(10, 6))
-    lang_sizes = {'Hindi': 1000, 'Bengali': 1000, 'Marathi': 1000, 'Bhojpuri': 250, 'Maithili': 250}
-    sns.barplot(x=list(lang_sizes.keys()), y=list(lang_sizes.values()), palette="Blues_d")
+    lang_sizes = {'Hindi': 1000, 'Bengali': 1000, 'Marathi': 1000, 'Bhojpuri': 250, 'Maithili': 250, 'Rajasthani': 250, 'Dogri': 250, 'Chhattisgarhi': 250}
+    sns.barplot(x=list(lang_sizes.keys()), y=list(lang_sizes.values()), hue=list(lang_sizes.keys()), legend=False)
     plt.title("Language-wise Dataset Size (PoC)")
     plt.ylabel("Number of Samples")
     plt.savefig(os.path.join(GRAPHS_DIR, "1.1_dataset_size.png"))
@@ -40,7 +40,7 @@ def generate_graphs():
 
     # 1.2 Task Distribution
     plt.figure(figsize=(8, 5))
-    sns.countplot(data=df, x="task", palette="Set2")
+    sns.countplot(data=df, x="task", hue="task", legend=False)
     plt.title("Task-wise Experiment Distribution")
     plt.savefig(os.path.join(GRAPHS_DIR, "1.2_task_distribution.png"))
     plt.close()
@@ -84,20 +84,13 @@ def generate_graphs():
     
     # 3.5 F1 vs Trainable Parameters
     plt.figure(figsize=(10, 6))
-    sns.scatterplot(data=df, x="trainable_params", y="f1", hue="adaptation", size="training_time_seconds", sizes=(50, 200), alpha=0.7)
+    sns.scatterplot(data=df, x="trainable_params", y="f1", hue="strategy", sizes=(50, 200), alpha=0.7)
     plt.xscale('log')
     plt.title("F1-score vs Trainable Parameters (Log Scale)")
     plt.savefig(os.path.join(GRAPHS_DIR, "3.5_f1_vs_params.png"))
     plt.close()
     
-    # 3.6 GPU memory
-    plt.figure(figsize=(10, 6))
-    sns.barplot(data=df, x="adaptation", y="gpu_memory_peak_mb", palette="dark")
-    plt.title("Peak GPU Memory Usage by Adaptation Method")
-    plt.ylabel("Memory (MB)")
-    plt.savefig(os.path.join(GRAPHS_DIR, "3.6_gpu_memory.png"))
-    plt.close()
-
+    # 3.6 GPU memory plot removed
     logging.info("Visualizations successfully generated in 'graphs' folder.")
 
 if __name__ == "__main__":

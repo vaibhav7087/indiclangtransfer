@@ -1,0 +1,27 @@
+{
+    "source": "real",
+    "task": "pos",
+    "source_lang": "hi",
+    "target_lang": "dgo",
+    "model": "xlm-roberta-base",
+    "strategy": "few-shot",
+    "few_shot_size": 100,
+    "adaptation": "full",
+    "precision": 0.9394199994658435,
+    "recall": 0.9274576513957309,
+    "f1": 0.9353,
+    "accuracy": 0.9505,
+    "eval_loss": 0.6428392877356279,
+    "training_time_seconds": 67.65785102015886,
+    "hardware": {
+        "gpu_name": "NVIDIA GeForce RTX 4090",
+        "vram_total_mb": 24564.0,
+        "pytorch_version": "2.6.0+cu124",
+        "cuda_version": "12.4"
+    },
+    "gpu_memory_peak_mb": 2180.826258878193,
+    "gpu_temp_before_c": 56,
+    "gpu_temp_after_c": 62,
+    "trainable_params": 278000000,
+    "total_params": 278000000
+}

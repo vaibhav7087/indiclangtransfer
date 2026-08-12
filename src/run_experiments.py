@@ -43,7 +43,7 @@ MODELS = [
 
 TASKS = ["ner", "pos", "sentiment"]
 SOURCES = ["hi", "bn", "mr"]
-TARGETS = ["bho", "mai"]
+TARGETS = ["bho", "mai", "raj", "dgo", "hne"]
 
 # Strategies and their data requirements
 STRATEGIES = ["zero-shot", "few-shot", "lora", "adapter"]
