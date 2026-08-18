@@ -15,6 +15,7 @@ reports/
 docs/
 diagrams/
 toolist.md
+src/*generate_word_report*.py
 
 # Temporary scripts
 patch*.py
