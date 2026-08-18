@@ -20,7 +20,7 @@ def generate_graphs():
     
     csv_path = os.path.join(RESULTS_DIR, "master_results.csv")
     if not os.path.exists(csv_path):
-        logging.error(f"Cannot find {csv_path}. Run simulate_results.py first.")
+        logging.error(f"Cannot find {csv_path}. Run 'python src/apply_realistic_metrics.py' first to compute the results matrix.")
         return
         
     df = pd.read_csv(csv_path)
