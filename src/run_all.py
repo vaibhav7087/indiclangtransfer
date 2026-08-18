@@ -6,7 +6,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 
 # PoC Real Runs Config
-MODELS = ["xlm-roberta-base"] # Just XLM-R for PoC
+MODELS = ["bert-base-multilingual-cased", "xlm-roberta-base"] # For PoC
 TASKS = ["ner", "pos", "sentiment"]
 SOURCE = "hi"
 TARGETS = ["bho", "mai", "raj", "dgo", "hne"]

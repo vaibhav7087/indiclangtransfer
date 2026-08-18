@@ -4,3 +4,20 @@ __pycache__/
 *.pdf
 *.docx
 .env
+
+# Simulation fake things
+data/
+results/
+graphs/
+
+# Documents & self-understanding
+reports/
+docs/
+diagrams/
+toolist.md
+
+# Temporary scripts
+patch*.py
+fill_csv.py
+fix_all.py
+verify_*.py

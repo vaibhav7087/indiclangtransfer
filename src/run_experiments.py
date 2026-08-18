@@ -36,6 +36,7 @@ PYTHON_EXE = LOCAL_VENV_PYTHON if os.path.exists(LOCAL_VENV_PYTHON) else sys.exe
 
 # Models in priority order (XLM-R first as most important baseline)
 MODELS = [
+    "bert-base-multilingual-cased",
     "xlm-roberta-base",
     "google/muril-base-cased",
     "ai4bharat/indic-bert",

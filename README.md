@@ -89,12 +89,12 @@ FEW_SHOT_SIZE = 50 # Tiny sample dataset
 To run the full suite of experiments across all combinations (**Warning**: This will utilize heavy GPU compute and take substantial time):
 ```python
 # Inside src/run_all.py
-MODELS = ["ai4bharat/indic-bert", "google/muril-base-cased", "xlm-roberta-base"]
+MODELS = ["bert-base-multilingual-cased", "ai4bharat/indic-bert", "google/muril-base-cased", "xlm-roberta-base"]
 TASKS = ["ner", "pos", "sentiment"]
 SOURCE = "hi"
 TARGETS = ["bho", "mai", "raj", "dgo", "hne"]
 STRATEGIES = ["zero-shot", "few-shot", "lora", "adapter"]
-FEW_SHOT_SIZE = 100
+FEW_SHOT_SIZE = 5000 # Massive support sets for adapter tuning
 ```
 
 ---

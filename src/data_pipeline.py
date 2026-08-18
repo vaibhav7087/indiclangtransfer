@@ -230,46 +230,26 @@ TOPICS = {
 
 # NER tag scheme: O=0, B-PER=1, I-PER=2, B-ORG=3, I-ORG=4, B-LOC=5, I-LOC=6
 NER_TEMPLATES = [
-    # Pattern: PERSON went to LOCATION
     lambda p, l, o, v, c, f: (
-        [p, l, c[0], v[0], "।"],
-        [1, 5, 0, 0, 0]
+        [f, p, c[0], l, "में", o.split()[0]] + (o.split()[1:] if len(o.split()) > 1 else []) + ["के", "साथ", v[0], "।"],
+        [0, 1, 0, 5, 0, 3] + ([4] * (len(o.split()) - 1) if len(o.split()) > 1 else []) + [0, 0, 0, 0]
     ),
-    # Pattern: PERSON from LOCATION works at ORG  
     lambda p, l, o, v, c, f: (
-        [p, l, c[1], o.split()[0]] + (o.split()[1:] if len(o.split()) > 1 else []) + [c[2], v[1], "।"],
-        [1, 5, 0, 3] + ([4] * (len(o.split()) - 1) if len(o.split()) > 1 else []) + [0, 0, 0]
+        [p, "और", "राम", l, c[1], o.split()[0]] + (o.split()[1:] if len(o.split()) > 1 else []) + [c[2], v[1], "।"],
+        [1, 0, 1, 5, 0, 3] + ([4] * (len(o.split()) - 1) if len(o.split()) > 1 else []) + [0, 0, 0]
     ),
-    # Pattern: ORG announced in LOCATION
     lambda p, l, o, v, c, f: (
-        [o.split()[0]] + (o.split()[1:] if len(o.split()) > 1 else []) + [c[0], l, c[2], v[2], "।"],
-        [3] + ([4] * (len(o.split()) - 1) if len(o.split()) > 1 else []) + [0, 5, 0, 0, 0]
+        ["हाल", "ही", "में", p, "ने", l, "में", "एक", "नया", "प्रोजेक्ट", v[2], "।"],
+        [0, 0, 0, 1, 0, 5, 0, 0, 0, 0, 0, 0]
     ),
-    # Pattern: FILLER PERSON CONNECTOR LOCATION VERB
     lambda p, l, o, v, c, f: (
-        [f, p, c[0], l, v[3], "।"],
-        [0, 1, 0, 5, 0, 0]
+        [o.split()[0]] + (o.split()[1:] if len(o.split()) > 1 else []) + ["के", "अध्यक्ष", p, "ने", l, "में", "भाषण", v[3], "।"],
+        [3] + ([4] * (len(o.split()) - 1) if len(o.split()) > 1 else []) + [0, 0, 1, 0, 5, 0, 0, 0, 0]
     ),
-    # Pattern: PERSON and PERSON2 work at ORG in LOCATION
     lambda p, l, o, v, c, f: (
-        [p, "और" if random.random() > 0.5 else "अउर", random.choice(PERSON_NAMES.get("hi", ["राम"])), o.split()[0]] + (o.split()[1:] if len(o.split()) > 1 else []) + [c[2], l, c[0], v[4], "।"],
-        [1, 0, 1, 3] + ([4] * (len(o.split()) - 1) if len(o.split()) > 1 else []) + [0, 5, 0, 0, 0]
-    ),
-    # Pattern: Only PERSON
-    lambda p, l, o, v, c, f: (
-        [p, v[5], "।"],
-        [1, 0, 0]
-    ),
-    # Pattern: Only LOCATION
-    lambda p, l, o, v, c, f: (
-        [l, c[3], f, v[6], "।"],
-        [5, 0, 0, 0, 0]
-    ),
-    # Pattern: Only O tags (no entities)
-    lambda p, l, o, v, c, f: (
-        [f, c[0], v[7], "।"],
-        [0, 0, 0, 0]
-    ),
+        ["भारत", "के", "प्रधानमंत्री", p, "आज", l, "पहुंचे", "।"],
+        [5, 0, 0, 1, 0, 5, 0, 0]
+    )
 ]
 
 def generate_ner_sample(lang):
@@ -408,6 +388,20 @@ def save_dataset(samples, filepath):
     pd.DataFrame(samples).to_json(filepath, orient='records', lines=True, force_ascii=False)
 
 
+def get_hf_dataset(task, lang, size):
+    try:
+        import datasets
+        if task == "ner" and lang in ["hi", "bn", "mr"]:
+            ds = datasets.load_dataset("unimelb-nlp/wikiann", lang, split=f"train[:{size}]")
+            samples = []
+            for item in ds:
+                samples.append({"tokens": item["tokens"], "ner_tags": item["ner_tags"]})
+            return samples
+    except Exception as e:
+        import logging
+        logging.warning(f"Failed to load HF dataset for {task}-{lang}: {e}")
+    return None
+
 def run_pipeline():
     ensure_dir(DATA_DIR)
     
@@ -422,18 +416,25 @@ def run_pipeline():
         for lang in all_langs:
             logging.info(f"Generating {task} data for {lang}...")
             
-            # Full training set for source languages (zero-shot training)
             if lang in sources:
-                train_full = generate_dataset(lang, task, SOURCE_TRAIN_SIZE)
-                save_dataset(train_full, os.path.join(DATA_DIR, task, lang, "train_full.json"))
+                hf_train = get_hf_dataset(task, lang, SOURCE_TRAIN_SIZE)
+                if hf_train:
+                    save_dataset(hf_train, os.path.join(DATA_DIR, task, lang, "train_full.json"))
+                    train_full = hf_train
+                else:
+                    train_full = generate_dataset(lang, task, SOURCE_TRAIN_SIZE)
+                    save_dataset(train_full, os.path.join(DATA_DIR, task, lang, "train_full.json"))
                 logging.info(f"  → train_full: {len(train_full)} unique samples")
             
-            # Test set for all languages
-            test_set = generate_dataset(lang, task, TEST_SIZE)
-            save_dataset(test_set, os.path.join(DATA_DIR, task, lang, "test.json"))
+            hf_test = get_hf_dataset(task, lang, TEST_SIZE) if lang in sources else None
+            if hf_test:
+                save_dataset(hf_test, os.path.join(DATA_DIR, task, lang, "test.json"))
+                test_set = hf_test
+            else:
+                test_set = generate_dataset(lang, task, TEST_SIZE)
+                save_dataset(test_set, os.path.join(DATA_DIR, task, lang, "test.json"))
             logging.info(f"  → test: {len(test_set)} unique samples")
             
-            # Few-shot splits for target languages
             if lang in targets:
                 for size in SPLITS:
                     few_shot = generate_dataset(lang, task, size)
@@ -447,7 +448,6 @@ def run_pipeline():
                 "test": TEST_SIZE,
                 "few_shot_splits": SPLITS if lang in targets else []
             }
-    
     # Save manifest
     manifest = {
         "status": "Real-scale PoC Data Generated",
